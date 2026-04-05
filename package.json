@@ -1,0 +1,29 @@
+{
+  "name": "canvas-editor",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build",
+    "install:all": "cd client && npm install && cd ../server && npm install"
+  },
+  "description": "another weird project not by me",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wolfkid200444/canvas-editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Wolfkid200444/canvas-editor/issues"
+  },
+  "homepage": "https://github.com/Wolfkid200444/canvas-editor#readme",
+  "dependencies": {
+    "zod": "^4.3.6"
+  }
+}
